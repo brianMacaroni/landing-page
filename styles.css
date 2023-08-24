@@ -26,7 +26,8 @@ h1 {
   padding: 100px 280px;
 }
 
-.center_top {
+.center_top,
+.footer {
   background: #1f2937;
 }
 
@@ -58,7 +59,8 @@ p {
 }
 
 p,
-.container {
+.container,
+.footer {
   font-size: 18px;
   color: #e5e7eb;
 }
@@ -172,4 +174,13 @@ button {
   border-color: white;
   border-style: solid;
   border-width: 2px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 28px;
+  color: white;
+  gap: 8px;
 }
