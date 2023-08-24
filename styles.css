@@ -119,3 +119,24 @@ button {
   color: rgb(82, 79, 79);
   margin-top: 6px;
 }
+
+.quote_section {
+  background-color: #e5e7eb;
+  padding: 150px 120px;
+}
+
+.quote {
+  font-size: 36px;
+  color: #1f2937;
+  width: 820px;
+  margin: auto;
+}
+
+.author {
+  color: #1f2937;
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+  margin-left: 600px;
+  font-size: 20px;
+}
