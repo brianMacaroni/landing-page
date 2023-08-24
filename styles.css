@@ -43,11 +43,7 @@ ul {
   gap: 16px;
 }
 
-a:link {
-  color: #e5e7eb;
-  font-size: 18px;
-  text-decoration: none;
-}
+a:link,
 a:visited {
   color: #e5e7eb;
   font-size: 18px;
@@ -86,6 +82,11 @@ button {
 
 .left_top {
   max-width: 450px;
+}
+
+.yep {
+  margin-top: 4px;
+  margin-bottom: 10px;
 }
 
 .info_title {
@@ -183,4 +184,14 @@ button {
   padding: 28px;
   color: white;
   gap: 8px;
+}
+
+#ye {
+  color: rgb(255, 119, 119);
+}
+
+a#ye:hover,
+a#ye:link {
+  color: green;
+  text-decoration: rgb(227, 227, 40) wavy underline;
 }
